@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1st-team",
+    "name": "1st team",
+    "players": [
+      {
+        "name": "Luder Dario",
+        "number": 26,
+        "image": ""
+      },
+      {
+        "name": "Maykovets Ivan",
+        "number": 4,
+        "image": ""
+      },
+      {
+        "name": "Mühlemann Yannic",
+        "number": 17,
+        "image": ""
+      },
+      {
+        "name": "Nahoha Arkadii",
+        "number": 92,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "id": "2nd-team",
+    "name": "2nd team",
+    "players": [
+      {
+        "name": "Alex Müller",
+        "number": 10,
+        "image": ""
+      },
+      {
+        "name": "David Schmidt",
+        "number": 88,
+        "image": ""
+      }
+    ]
+  },
+  {
+    "id": "ladies",
+    "name": "Ladies",
+    "players": [
+      {
+        "name": "Sarah Weber",
+        "number": 15,
+        "image": ""
+      }
+    ]
+  }
+]
