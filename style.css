@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    background-color: #0c2c54;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+    background-color: #d32f2f;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.logo-img {
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+
+.pill-nav {
+    display: flex;
+    gap: 12px;
+}
+
+.pill-nav a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 24px 9px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.pill-nav a:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.pill-nav a.active {
+    background-color: #ffffff;
+    color: #d32f2f;
+    border-color: #ffffff;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.news-card {
+    background-color: #1a457b;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+    height: 320px;
+    background-color: #1a457b;
+    border-bottom: 1px solid #1a457b;
+}
+
+.placeholder-img {
+    background-image: linear-gradient(
+        45deg,
+        #12335e 25%,
+        #1a457b 25%,
+        #1a457b 50%,
+        #12335e 50%,
+        #12335e 75%,
+        #1a457b 75%,
+        #1a457b 100%
+    );
+    background-size: 20px 20px;
+}
+
+.card-content {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 12px;
+    line-height: 1.3;
+}
+
+.card-content p {
+    font-size: 15px;
+    color: #a0aec0;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 320px;
+    background-color: #1a457b;
+    overflow: hidden;
+}
+
+.slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.slider-image.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    z-index: 2;
+}
+
+.slider-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.slider-dot.active {
+    background-color: #ffffff;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 2px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 3;
+    font-size: 16px;
+}
+
+.slider-arrow:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.slider-container:hover .slider-arrow {
+    opacity: 1;
+}
+
+.slider-arrow.prev {
+    left: 16px;
+}
+
+.slider-arrow.next {
+    right: 16px;
+}
+
+.markdown-body {
+    font-size: 15px;
+    color: #a0aec0;
+}
+
+.markdown-body a {
+    color: #3b82f6;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.markdown-body a:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+.markdown-body strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .pill-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Youth Hockey Tournament 2026",
+    "content": "Thanks to the generous support of the **Bernese Ice Hockey Foundation**, we were able to hold a great tournament. Read more on our [official partner page](https://example.com).",
+    "images": [
+      "assets/image1001160.png",
+      "assets/image1001161.png",
+      "assets/image1001166.png"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Become an RBB Member!",
+    "content": "Do you want to play ice hockey or support the club as a coach, official, or passive member? **Get in touch with us today.**",
+    "images": ["assets/image1001091.png"]
+  },
+  {
+    "id": 3,
+    "title": "Current Sponsors",
+    "content": "Without sponsors, training and games for EHC Rot-Blau Bern-Bümpliz would not be possible.",
+    "images": ["assets/image1000894.png"]
+  }
+]
