@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Bären Elektro",
+    "logo": "assets/image1000707.png",
+    "link": "https://example.com"
+  },
+  {
+    "name": "Bernese Ice Hockey Foundation",
+    "logo": "assets/image1000690.png",
+    "link": "https://example.com"
+  },
+  {
+    "name": "Partner Company 3",
+    "logo": "",
+    "link": "#"
+  },
+  {
+    "name": "Partner Company 4",
+    "logo": "",
+    "link": "#"
+  }
+]
