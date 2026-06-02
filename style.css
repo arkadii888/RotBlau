@@ -331,3 +331,64 @@ body {
     max-height: 100%;
     object-fit: contain;
 }
+
+.club-card {
+    background-color: #1a457b;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3 {
+    color: #ffffff;
+    margin-bottom: 24px;
+    margin-top: 32px;
+}
+
+.markdown-body h1:first-child,
+.markdown-body h2:first-child,
+.markdown-body h3:first-child {
+    margin-top: 0;
+}
+
+.markdown-body p {
+    margin-bottom: 16px;
+    line-height: 1.8;
+}
+
+.markdown-body img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    display: block;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+    margin-bottom: 24px;
+    padding-left: 24px;
+}
+
+.markdown-body li {
+    margin-bottom: 8px;
+}
+
+.markdown-body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 24px;
+}
+
+.markdown-body th,
+.markdown-body td {
+    padding: 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.markdown-body th {
+    color: #ffffff;
+    font-weight: 700;
+}

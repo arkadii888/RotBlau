@@ -1,0 +1,42 @@
+[
+  {
+    "id": "geschichte",
+    "name": "Geschichte",
+    "content": "## Geschichte\n\nAhnen des Vereins waren ursprünglich die 1934 gegründeten Clubs **EHC Fortuna** und **EHC Polar**. Da sie aber an keinem Verein angeschlossen waren, konnten sie Freundschaftsspiele ausrichten. Am 9. Mai 1942 erfolgte die Gründung des *EHC Bümpliz* und ein Jahr später wurden der *EHC Fortuna* und *EHC Polar* in den Verein aufgenommen, aus dem schliesslich der *EHC Rot-Blau* entstand.\n\nDie NLB-Spielzeit 1976/77 verlief jedoch wenig erfolgreich, sodass zum Saisonende der direkte Abstieg in die 1. Liga nicht verhindert werden konnte.\n\n![Team History 1](assets/image1000264.png)\n![Team History 2](assets/image1000218.png)"
+  },
+  {
+    "id": "vorstand",
+    "name": "Vorstand",
+    "content": "## Vorstand\n\nDer Vorstand besteht aus folgenden Personen:\n\n| Funktion | Name | Kontakt |\n|---|---|---|\n| **Präsident:** | Michael Füllemann | [michael.fuellemmann@rot-blau.ch](mailto:michael.fuellemmann@rot-blau.ch) |\n| **Vizepräsident:** | Dominic Zaman | [dominic.zaman@rot-blau.ch](mailto:dominic.zaman@rot-blau.ch) |\n| **TK-Chef:** | Roman Stalder | [roman.stalder@rot-blau.ch](mailto:roman.stalder@rot-blau.ch) |\n| **Finanzchefin:** | Sandra Palli | [sandra.palli@rot-blau.ch](mailto:sandra.palli@rot-blau.ch) |\n| **Marketingchef:** | vakant | |\n| **Nachwuchsverantwortlicher:** | Alex Thalmann | [alex.thalmann@rot-blau.ch](mailto:alex.thalmann@rot-blau.ch) |\n| **Chef Veranstaltungen:** | Flavio Gerber | [flavio.gerber@rot-blau.ch](mailto:flavio.gerber@rot-blau.ch) |"
+  },
+  {
+    "id": "statuten",
+    "name": "Statuten",
+    "content": "## Statuten\n\n[>>> Statuten herunterladen](#)"
+  },
+  {
+    "id": "verhaltenskodex",
+    "name": "Verhaltenskodex",
+    "content": "## Verhaltenskodex\n\n[>>> Verhaltenskodex des EHC Rot-Blau Bern-Bümpliz herunterladen](#)\n\n![Verhaltenskodex](assets/kodex.png)"
+  },
+  {
+    "id": "datenschutz",
+    "name": "Datenschutz",
+    "content": "## Datenschutz\n\n[>>> Datenschutzerklärung des EHC Rot-Blau Bern-Bümpliz herunterladen](#)"
+  },
+  {
+    "id": "beitrittserklaerung",
+    "name": "Beitrittserklärung",
+    "content": "## Ich möchte Eishockey spielen!\n\n[>>> Beitrittserklärung herunterladen](#)\n\nEishockey, die schönste Nebensache der Welt, in einem Verein zu spielen, ist eine tolle Sache. \n\n**Vorgehen:**\nMelde dich bei Roman Stalder ([roman.stalder@rot-blau.ch](mailto:roman.stalder@rot-blau.ch)) für weitere Infos.\n\n**Möglichkeiten:**\n* Hockeyschule besuchen\n* Teammitglied auf den Stufen U9 / U12 / U14 / U16 werden\n* Aktivmitglied (3. Liga / 4. Liga / SWHL D) werden\n* Bei den Senioren mitmachen"
+  },
+  {
+    "id": "regelbuch",
+    "name": "IIHF Regelbuch",
+    "content": "## IIHF Regelbuch 2018-2022\n\n[>>> IIHF-Regelbuch 2018-2022 herunterladen](#)"
+  },
+  {
+    "id": "kontakt",
+    "name": "Kontakt",
+    "content": "## Kontakt\n\n**Postadresse:**\nEHC Rot-Blau Bern-Bümpliz\nPostfach 691\n3018 Bern\n\nFür eine Kontaktaufnahme per E-Mail klicke [hier](#).\n\n**Standort Eisbahn:**\n![Map Weyermannshaus](assets/map.png)"
+  }
+]
