@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1st-team",
+    "name": "1. Mannschaft",
+    "coaches": [{ "name": "Flavio Gerber", "image": "" }]
+  },
+  {
+    "id": "2nd-team",
+    "name": "2. Mannschaft",
+    "coaches": [
+      { "name": "Dominic Zaman", "image": "" },
+      { "name": "Fabio Ricklin", "image": "" }
+    ]
+  },
+  {
+    "id": "damen",
+    "name": "Damen",
+    "message": "Vakant",
+    "coaches": []
+  },
+  {
+    "id": "u16",
+    "name": "U16",
+    "message": "Unsere U16-Spieler sind in der Saison 2025/2026 für den EHC Bern 96 im Einsatz.",
+    "coaches": []
+  },
+  {
+    "id": "u14",
+    "name": "U14",
+    "coaches": [
+      { "name": "Beat Bätscher", "image": "" },
+      { "name": "Roger Meinen", "image": "" }
+    ]
+  },
+  {
+    "id": "u12",
+    "name": "U12",
+    "coaches": [
+      { "name": "Rico Hess", "image": "" },
+      { "name": "Rafael Hess", "image": "" }
+    ]
+  },
+  {
+    "id": "u9",
+    "name": "U9",
+    "coaches": [
+      { "name": "Claudia Müller", "image": "" },
+      { "name": "Nicole Moesch", "image": "" },
+      { "name": "Sandro Mischler", "image": "" },
+      { "name": "Sandro Müller", "image": "" },
+      { "name": "Lorenz Scheurer", "image": "" }
+    ]
+  },
+  {
+    "id": "hockeyschule",
+    "name": "Hockeyschule",
+    "coaches": [{ "name": "Sabrina Uebersax", "image": "" }]
+  },
+  {
+    "id": "torhueter",
+    "name": "Torhüter",
+    "coaches": [{ "name": "Martin Salvisberg", "image": "" }]
+  }
+]
